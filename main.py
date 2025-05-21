@@ -1,0 +1,16 @@
+from tabuadas import tabuada
+ 
+valor_um = tabuada(5)
+print(25*"=")
+print("Soma:")
+valor_um.soma()
+print(25*"=")
+print("Subtração:")
+valor_um.subtracao()
+print(25*"=")
+print("Multiplicação:")
+valor_um.multiplacao()
+print(25*"=")
+print("Divisão:")
+valor_um.divisao()
+print(25*"=")
